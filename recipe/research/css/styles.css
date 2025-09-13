@@ -1,0 +1,34 @@
+body{
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  margin-bottom: 0.3rem;
+}
+
+h2 {
+  display: inline-block;
+  color: #6d5a83;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid rgb(161, 161, 161);
+}
+
+section{
+    margin-left: 2rem;
+}
+
+h3{
+    font-style: 1.2em;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(92, 98, 124);
+}
+
+a:hover{
+    color:rgb(21, 29, 66);
+}
+
