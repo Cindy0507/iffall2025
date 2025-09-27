@@ -1,0 +1,97 @@
+body{
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 0rem 24rem ;
+}
+
+h1 {
+  margin-bottom: 0.3rem;
+   text-align: center;
+   font-size: 3em;
+}
+
+h2 {
+  display: inline-block;
+  color: #6d5a83;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid rgb(161, 161, 161);
+}
+
+section{
+    margin-left: 2rem;
+}
+
+h3{
+    font-style: 1.2em;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(92, 98, 124);
+}
+
+a:hover{
+    color:rgb(21, 29, 66);
+}
+.Method il{
+  margin-bottom: 2em;
+}
+.step-images {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap; 
+}
+.step-images img {
+  width: 45%;
+  border-radius: 6px; 
+}
+.Ingredients{
+  background-color: rgb(247, 241, 235);
+  padding: 1em 2em;
+}
+.recipe-info {
+  display: flex;
+  background-color:rgb(238, 235, 239);
+  justify-content: space-around;
+  margin-bottom: 1em;
+  border-top: 5px solid rgb(168, 151, 177);
+  padding: 1em 2em 2em 2em;
+  text-align: center;
+}
+
+.recipe-info h4 {
+  color: #2c7a7b; 
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.recipe-info p {
+  font-size: 1.1rem;
+  margin: 0;
+  color: #222;
+  font-weight: 500;
+}
+
+.nutritional_facts{
+  background-color:rgb(238, 235, 239);
+  justify-content: space-around;
+  margin-bottom: 1em;
+  padding: 2em 2em 2em;
+  text-align: center;
+  border-radius: 1em;
+}
+.nutritional_facts h2 {
+  margin-bottom: 1em;
+}
+.nutritional_facts h4{
+ color: #2c7a7b; 
+  font-size: 1.1em;
+  letter-spacing: 1px;
+}
+.facts-row {
+  display: flex;
+  justify-content: space-around;
+}
