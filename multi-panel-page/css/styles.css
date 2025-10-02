@@ -3,6 +3,7 @@ body{
     font-optical-sizing: auto;
     align-items: center;
     flex-direction: column;
+    margin: 0; 
 }
 header{
     text-align: center;
