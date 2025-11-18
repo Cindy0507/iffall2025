@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>aespa — Home</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Audiowide&family=Bruno+Ace+SC&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Gravitas+One&family=Limelight&family=Orbitron:wght@700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+
+</head>
+<body class="page-home">
+  <header class="topbar">
+    <nav class="nav" aria-label="Main">
+      <div class="brand">
+        <a href="index.html">
+          <img src="images/logo.png" alt="aespa logo" class="logo" />
+        </a>
+      </div>
+
+      <button class="burger" aria-label="Toggle navigation">☰</button>
+      <div class="navlinks" role="menu">
+        <a href="index.html" role="menuitem">Home</a>
+        <a href="characters.html" role="menuitem">Characters</a>
+        <a href="music.html" role="menuitem">Music</a>
+        <a href="tour.html" role="menuitem">Tour</a>
+      </div>
+    </nav>
+  </header>
+
+  
+  <section class="hero">
+    <div class="split-hero">
+      <div class="wordmark">
+        <h1>Aespa</h1>
+        <div class="sub">A next-gen K-pop group blending reality and virtual.</div>
+      </div>
+      <figure class="hero-img">
+        <img src="images/home-right.jpg" alt="aespa hero image" />
+      </figure>
+    </div>
+  </section>
+
+  <main class="section">
+    <article class="card intro">
+      <p>
+        aespa (에스파) is a South Korean girl group known for its high-concept worldbuilding and AI/virtual “ae” counterparts. This microsite collects a quick intro, member highlights, discography, and recent tour info. Replace this paragraph with your own text—two to four sentences keeps it readable.
+      </p>
+    </article>
+  </main>
+<section class="info-feature">
+  <div class="feature-wrap">
+    
+    <div class="blobs" aria-hidden="true">
+      <svg class="blob-surface" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="16" result="blur" />
+            <feColorMatrix in="blur" mode="matrix"
+              values="1 0 0 0 0
+                      0 1 0 0 0
+                      0 0 1 0 0
+                      0 0 0 32 -8" result="goo" />
+            <feBlend in="SourceGraphic" in2="goo" />
+          </filter>
+
+          <radialGradient id="purpleGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%"  stop-color="#c7b8ff" stop-opacity="1"/>
+            <stop offset="60%" stop-color="#a78bfa" stop-opacity="0.85"/>
+            <stop offset="100%" stop-color="#6d28d9" stop-opacity="0.0"/>
+          </radialGradient>
+        </defs>
+
+        <g filter="url(#goo)">
+          <circle class="blob b1" cx="160" cy="220" r="90"  fill="url(#purpleGlow)"/>
+          <circle class="blob b2" cx="360" cy="360" r="120" fill="url(#purpleGlow)"/>
+          <circle class="blob b3" cx="620" cy="260" r="80"  fill="url(#purpleGlow)"/>
+          <circle class="blob b4" cx="500" cy="120" r="70"  fill="url(#purpleGlow)"/>
+        </g>
+      </svg>
+    </div>
+
+    <figure class="feature-media">
+      <img src="images/no bg.png" alt="aespa members" />
+    </figure>
+
+    <article class="feature-copy">
+      <h2 class="section-title">Aespa Story</h2>
+      <p>
+        Aespa blends real members and their virtual “ae” counterparts into one narrative universe. The group explores identity, connection, and the boundary between worlds—both in music and visuals.
+      </p>
+      <p>
+        Their concept evolves across eras, with lore hidden in videos, sites, and stage design. Dive in below for highlights and performances.
+      </p>
+    </article>
+  </div>
+</section>
+
+<section class="mv-frame">
+  <div class="mv-wrap">
+    <header class="mv-head">
+      <span class="pill">Now Playing</span>
+      <h3>Aespa — 'Rich Man' MV</h3>
+    </header>
+
+    <div class="mv-player">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/0xdB_vo4r2c?si=9Hg5OqsEbPsr0KKm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div>
+</section>
+  <footer>
+    <p>Resources: <a href="https://www.aespa.com/" target="_blank" rel="noopener">aespa.com</a></p>
+  </footer>
+
+  
+</body>
+</html>
+
+
