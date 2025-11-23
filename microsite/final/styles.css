@@ -244,8 +244,6 @@ body.page-home .hero{
   .blob { animation: none; }
 }
 
-/* ===== NAV ===== */
-
 .topbar{
   position: sticky; top:0; z-index: 60;
   backdrop-filter: blur(8px);
@@ -282,8 +280,6 @@ body.page-home .hero{
 
 .burger{ display:none; background:none; border:0; color:var(--text); font-size:28px; }
 
-/* ===== GLOBAL HERO (characters / music / tour) ===== */
-
 .hero{
   min-height: 500px;                         
   display:grid; place-items:end start;
@@ -308,8 +304,6 @@ body.page-music      .hero{ background-image: url('images/bg-music.jpg'); }
 body.page-tour       .hero{ background-image: url('images/bg-tour.jpg') ; 
 }
 
-/* ===== LAYOUT / CARDS ===== */
-
 .section{
   max-width:1100px; margin: 32px auto; padding: 0 20px;
 }
@@ -319,8 +313,6 @@ body.page-tour       .hero{ background-image: url('images/bg-tour.jpg') ;
   border-radius: var(--radius); box-shadow: var(--shadow);
   overflow: hidden;
 }
-
-/* 4-up grid for members */
 .grid-4{
   display:grid;
   gap:18px;
@@ -349,8 +341,6 @@ body.page-tour       .hero{ background-image: url('images/bg-tour.jpg') ;
   background:rgba(0, 0, 0, 0.506);
 }
 
-/* ===== ALBUM GRID ===== */
-
 .albums{
   display:grid;
   gap:16px;
@@ -375,8 +365,6 @@ body.page-tour       .hero{ background-image: url('images/bg-tour.jpg') ;
   font-size:14px; 
   color:var(--muted); }
 
-/* ===== TOUR POSTER ===== */
-
 .poster{
   max-width: 900px;
   margin: 0 auto;
@@ -390,8 +378,6 @@ body.page-tour       .hero{ background-image: url('images/bg-tour.jpg') ;
   display:block;
 }
 
-/* ===== FOOTER ===== */
-
 footer{
   margin-top: 64px; 
   padding: 28px 20px; 
@@ -403,8 +389,6 @@ footer a{
   color: var(--link); 
   text-decoration:none; }
 footer a:hover{ text-decoration:underline; }
-
-/* ===== TICKETS PANEL ===== */
 
 .card-title{ margin:0 0 10px; font-size:18px; letter-spacing:.02em; }
 
@@ -432,8 +416,6 @@ footer a:hover{ text-decoration:underline; }
   font-size:12px; text-transform:uppercase; letter-spacing:.06em;
   background:#c7b8ff; color:#0b0b0c; border:1px solid rgba(255,255,255,.2);
 }
-
-/* ===== RESPONSIVE BREAKPOINTS ===== */
 
 @media (max-width: 900px){
   .feature-wrap { grid-template-columns: 1fr; }
